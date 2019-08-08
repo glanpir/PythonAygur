@@ -10,7 +10,7 @@ html_icerigi = response.content
 
 soup = BeautifulSoup(html_icerigi,"html.parser")
 
-a = float(input("Rating'i giriniz:"))
+a = float(input("Rating'i giriniz lütfen:"))
 
 
 basliklar = soup.find_all("td",{"class":"titleColumn"})
